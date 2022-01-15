@@ -94,4 +94,22 @@ class HelperController extends Controller
 
         return $main;
     }
+
+    function finalizeArray($messy)
+    {
+        $main = array();
+        foreach($messy as $key=>$mess)
+        {
+            $tmp = array();
+            $tmp["name"] = $key;
+            foreach($mess as $keyyed=>$me)
+            {
+                $tmp["country"] = $keyyed;
+                $tmp["flag"] = $me;
+            }
+            array_push($main, $tmp);
+        }
+        
+        return $main;
+    }
 }
