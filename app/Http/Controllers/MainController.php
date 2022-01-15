@@ -20,28 +20,46 @@ class MainController extends Controller
         $main = '[
             {
                 "name": "Democracy Day",
-                "country": "CV",
-                "flag": "https://www.countryflags.io/CV/flat/64.png"
+                "flag": "https://www.countryflags.io/CV/flat/64.png",
+                "country": 
+                    [
+                        "CV",
+                        "MM",
+                        "TH",
+                        "US"
+                    ]
             },
             {
-                "name": "Kayin New Year",
-                "country": "MM",
-                "flag": "https://www.countryflags.io/MM/flat/64.png"
+                "name": "Kayin New Year",                
+                "flag": "https://www.countryflags.io/MM/flat/64.png",
+                "country": 
+                    [
+                        "MM"
+                    ]
             },
             {
                 "name": "Constituion Day",
-                "country": "MN",
-                "flag": "https://www.countryflags.io/MN/flat/64.png"
+                "flag": "https://www.countryflags.io/MN/flat/64.png",
+                "country": 
+                    [
+                        "MN"
+                    ]
             },
             {
                 "name": "National Aviation Day",
-                "country": "TH",
-                "flag": "https://www.countryflags.io/TH/flat/64.png"
+                "flag": "https://www.countryflags.io/TH/flat/64.png",
+                "country": 
+                    [
+                        "TH"
+                    ]
             },
             {
                 "name": "Stephen Foster Memorial Day",
-                "country": "US",
-                "flag": "https://www.countryflags.io/US/flat/64.png"
+                "flag": "https://www.countryflags.io/US/flat/64.png",
+                "country": 
+                    [
+                        "US"
+                    ]
             }
         ]';
 
